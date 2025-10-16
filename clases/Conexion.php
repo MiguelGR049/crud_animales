@@ -4,7 +4,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/b221190107/crud_animales/vendor/autol
 class Conexion {
     public static function conectar() {
         try {
-            $servidor = "127.0.0.1";
+            $servidor = "localhost";
             $puerto = "27017";
             $BD = "b221190107_crud";
             $usuario = "backend";
