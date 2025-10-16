@@ -30,11 +30,11 @@ $datos = $crud->obtenerDocumento($id);
                         </thead>
                         <tbody>
                             <tr>
-                                <td><?php echo $item->mascota; ?></td>
-                                <td><?php echo $item->edad; ?></td>
-                                <td><?php echo $item->especie; ?></td>
-                                <td><?php echo $item->raza; ?></td>
-                                <td><?php echo $item->dueño; ?></td>
+                                <td><?php echo $datos->mascota; ?></td>
+                                <td><?php echo $datos->edad; ?></td>
+                                <td><?php echo $datos->especie; ?></td>
+                                <td><?php echo $datos->raza; ?></td>
+                                <td><?php echo $datos->dueño; ?></td>
                             </tr>
                         </tbody>
                     </table>
