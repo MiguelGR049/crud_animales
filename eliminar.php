@@ -26,7 +26,6 @@ $datos = $crud->obtenerDocumento($id);
                             <th scope="col">Especie</th>
                             <th scope="col">Raza</th>
                             <th scope="col">Nombre del dueño</th>
-                            <th scope="col">Acciones</th>
                         </thead>
                         <tbody>
                             <tr>
