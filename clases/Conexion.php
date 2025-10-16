@@ -9,7 +9,7 @@ class Conexion {
             $BD = "b221190107_crud";
             $usuario = "backend";
             $password = "backend2025";
-            $cadenaConexion = "mongodb://$usuario:$password@$servidor:$puerto/$BD";
+            $cadenaConexion = "mongodb://$usuario:$password@$servidor:$puerto/$BD?authSource=admin";
 
             // Crear cliente y seleccionar base de datos
             $cliente = new MongoDB\Client($cadenaConexion);
