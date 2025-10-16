@@ -13,6 +13,9 @@ $idMongo = $datos->_id;
     <div class="row mb-3 justify-content-center">
         <div class="card justify-content-center" style="width: 25rem; background-color: rgba(255, 255, 255, 0.5);">
             <form action="./procesos/actualizar.php" method="POST">
+                <a href="index.php" class="btn btn-outline-info">
+                    <i class="fa-solid fa-angles-left"></i> Regresar
+                </a>
                 <input type="text" hidden value="<?php echo $idMongo ?>" name="id">
                 <img class="mx-auto d-block" src="./public/img/Itadori.png" height="95" width="125px">
                 <div class="card-body row justify-content-center">
