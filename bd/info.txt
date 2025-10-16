@@ -1,0 +1,6 @@
+use b221190107_crud
+
+db.mascotas.insertOne({mascota: "Zeus", edad: 2, especie: "Perro", raza: "Pastor Belga", dueño: "Maria"})
+
+mongosh -u  backend -p backend2025 --authenticationDatabase admin
+
